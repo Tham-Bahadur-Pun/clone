@@ -50,6 +50,38 @@ body {
 .sub-heading {
     margin-top: 5em;
     color: #66678E;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 600;
+}
+
+.subscribe {
+    margin-top: 2em;
+}
+
+.subscribe input[type="text"] {
+    font-size: 1.2rem;
+    width: 70%;
+    height: auto;
+    padding: 0.8em;
+    margin-right: 0;
+}
+
+.subscribe input[type="text"]:focus {
+    border: 1px solid #023ca8;
+}
+
+.btn-sub {
+    margin-left: 0;
+    font-size: 1.2rem;
+    padding: 0.9em;
+    background-color: #023ca8;
+    color: white;
+    border: 1px solid #023ca8;
+    font-weight: 700;
+}
+
+.btn-sub:hover {
+    background-color: #052e79;
+    border: 1px solid #052e79;
+    cursor: pointer;
 }
